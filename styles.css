@@ -1,0 +1,43 @@
+#countryContainer {
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.seperateCountry h1 {
+  width: 30rem;
+}
+
+.largest {
+  background-color: red;
+}
+body {
+  background-color: aliceblue;
+}
+
+.buttonDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25rem;
+  margin-left: 30%;
+  margin-top: 2rem;
+}
+
+.buttonDiv input{
+  align-self: flex-start;
+}
+
+.buttonDiv button{
+  align-self: flex-start;
+  width: 150px;
+  height: 50px;
+  color: darkslategrey;
+}
+
+.buttonDiv button:hover{
+  color: black;
+  
+}
