@@ -2,7 +2,8 @@ const languageButton = document.getElementById("languageButton")
 const languageInput = document.getElementById("languageInput")
 const countryContainer = document.getElementById("countryContainer");
 
-languageButton.addEventListener('click', ()=>{
+languageButton.addEventListener('click', (event)=>{
+  event.preventDefault()
   countryContainer.innerHTML = ""
   let languageName = languageInput.value
   let languageURL = `https://restcountries.com/v3.1/lang/${languageName}`
