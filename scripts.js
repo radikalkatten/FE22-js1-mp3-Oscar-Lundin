@@ -67,6 +67,3 @@ else{
     errorMessage.innerText = "Felaktig sökning. Försök igen"
   })
 })
-
-
-
